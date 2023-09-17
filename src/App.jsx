@@ -10,9 +10,7 @@ import "react-toastify/dist/ReactToastify.css";
 import { useDispatch } from 'react-redux'
 import { fetchAllProductData } from './redux/ProductSlice'
 import SingleProduct from './pages/productDetails/SingleProduct'
-import axios from 'axios'
 import { fetchBuyProduct, saveCartData } from './redux/CartSlice'
-import { Base_url } from './utills/ApiRoutes'
 
 
 
